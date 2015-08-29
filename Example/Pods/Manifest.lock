@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - PXFullBleedCollectionView (0.1.1)
+  - PXImageView (0.1.2):
+    - UIImageView_AFNetworking-Blocks
+  - UIImageView_AFNetworking-Blocks (0.1.0):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - PXFullBleedCollectionView (from `../`)
+  - PXImageView
+
+EXTERNAL SOURCES:
+  PXFullBleedCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  PXFullBleedCollectionView: fa733f5d4c59f8220d901ce870d5d61787d57f65
+  PXImageView: 87bc406b74788926fd073fc399b14a30c95e3d11
+  UIImageView_AFNetworking-Blocks: 77b5ada4b4a0a1925e4c86cad1f9c3271b8e773f
+
+COCOAPODS: 0.38.2

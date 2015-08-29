@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PXFullBleedCollectionView', :exclusive => true do
+  pod "PXFullBleedCollectionView", :path => "../"
+  pod "PXImageView"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PXFullBleedCollectionView", :path => "../"
+
+
+end

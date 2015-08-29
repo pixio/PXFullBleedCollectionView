@@ -1,0 +1,27 @@
+{
+  "name": "PXFullBleedCollectionView",
+  "version": "0.1.1",
+  "summary": "Full bleed header for a collection view.",
+  "description": "It resizes as you scroll!",
+  "homepage": "https://git.pixio.com/",
+  "license": "MIT",
+  "authors": {
+    "Daniel Blakemore": "DanBlakemore@gmail.com"
+  },
+  "source": {
+    "git": "git@git.pixio.com:ios-pods/pxfullbleedcollectionview.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PXFullBleedCollectionView": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit"
+}

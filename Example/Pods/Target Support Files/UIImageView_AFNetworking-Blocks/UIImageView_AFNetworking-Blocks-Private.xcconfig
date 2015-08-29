@@ -1,0 +1,6 @@
+#include "UIImageView_AFNetworking-Blocks.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UIImageView_AFNetworking-Blocks" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/PXFullBleedCollectionView" "${PODS_ROOT}/Headers/Public/PXImageView" "${PODS_ROOT}/Headers/Public/UIImageView_AFNetworking-Blocks"
+OTHER_LDFLAGS = ${UIIMAGEVIEW_AFNETWORKING_BLOCKS_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
