@@ -42,24 +42,24 @@
  *  Instead, set the delegate property of this PXFullBleedHeaderCollectionView so that scroll events 
  *  can be intercepted.
  */
-@property (nonatomic, readonly) UICollectionView * collectionView;
+@property (nonatomic, readonly, nonnull) UICollectionView * collectionView;
 
 /**
  *  The headerview at the top of the collectionview.  This view can contain anything including controls.
  *  The headerview is responsible for managing its own layout in response to resizing.
  *  Setting the headerview resets the collectionview's contentoffset.
  */
-@property (nonatomic) PXFullBleedHeaderView * headerView;
+@property (nonatomic, nullable) PXFullBleedHeaderView * headerView;
 
 /**
  *  The delegate for the collectionview.  All non scroll-related delegate methods will be passed through.
  *  All scroll events will be intercepted and dealt with and then passed through.
  */
-@property (nonatomic, assign) id<UICollectionViewDelegateFlowLayout> delegate;
+@property (nonatomic, assign, nullable) id<UICollectionViewDelegateFlowLayout> delegate;
 
 /**
  *  The data source for the collectionview.  Wraps the collection view's getter/setter for convenience.
  */
-@property (nonatomic, assign) id<UICollectionViewDataSource> dataSource;
+@property (nonatomic, assign, nullable) id<UICollectionViewDataSource> dataSource;
 
 @end
