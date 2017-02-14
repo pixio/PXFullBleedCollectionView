@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - PXFullBleedCollectionView (0.1.1)
+  - PXFullBleedCollectionView (0.1.3)
   - PXImageView (0.1.2):
     - UIImageView_AFNetworking-Blocks
   - UIImageView_AFNetworking-Blocks (0.1.0):
@@ -36,8 +36,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
-  PXFullBleedCollectionView: fa733f5d4c59f8220d901ce870d5d61787d57f65
+  PXFullBleedCollectionView: 4aa28ae1956f112ec52c3daac4ba1ec6242a5b2c
   PXImageView: 87bc406b74788926fd073fc399b14a30c95e3d11
   UIImageView_AFNetworking-Blocks: 77b5ada4b4a0a1925e4c86cad1f9c3271b8e773f
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 8979b66a367302f6b2e93f49914b2a7f98916bd4
+
+COCOAPODS: 1.2.0

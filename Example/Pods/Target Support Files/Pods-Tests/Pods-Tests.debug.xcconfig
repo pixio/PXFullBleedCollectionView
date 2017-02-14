@@ -1,5 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/PXFullBleedCollectionView" "${PODS_ROOT}/Headers/Public/PXImageView" "${PODS_ROOT}/Headers/Public/UIImageView_AFNetworking-Blocks"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/PXFullBleedCollectionView"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/PXFullBleedCollectionView" -isystem "${PODS_ROOT}/Headers/Public/PXImageView" -isystem "${PODS_ROOT}/Headers/Public/UIImageView_AFNetworking-Blocks"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"PXFullBleedCollectionView" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
