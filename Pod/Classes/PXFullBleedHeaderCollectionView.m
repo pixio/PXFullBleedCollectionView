@@ -297,8 +297,8 @@
     if ([_delegate respondsToSelector:@selector(collectionView:transitionLayoutForOldLayout:newLayout:)]) {
         return [_delegate collectionView:collectionView transitionLayoutForOldLayout:fromLayout newLayout:toLayout];
     }
-//#warning might have a bug here (not sure if I need to initialize at all)
-    return [[UICollectionViewTransitionLayout alloc] init];
+#warning might have a bug here (not sure if I need to initialize at all)
+    return [[UICollectionViewTransitionLayout alloc] initWithCurrentLayout:fromLayout nextLayout:toLayout];
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
